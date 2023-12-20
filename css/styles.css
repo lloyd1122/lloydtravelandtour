@@ -1,0 +1,115 @@
+body{
+    scroll-behavior: smooth;
+}
+#navbar{
+    height: 100px;
+    background-color: rgb(2, 39, 30);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding: 0 16px;
+    
+}
+.image-div{
+    width: 80px;
+    height: 80px;
+}
+#imaa{
+    width:100%;
+    height:100%;
+}
+
+#lloyd{
+    background-image: url(../image/aero\ plane.jpeg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+#tour{
+    color: rgba(3, 30, 87, 0.911);
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;   
+}
+
+
+#last-page{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(32, 34, 36, 0.918);
+    display: flex;
+    gap: 140px;
+    padding-top: 50px;
+   color: aliceblue; 
+}
+#agent{
+    color: aliceblue;
+    margin-left: 30px;
+}
+a {
+    color: aliceblue;
+}
+#facebooklogo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#email{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#phone{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#whatsapp{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+    gap:90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-transform:  uppercase;
+    color: whitesmoke;
+}
+.services{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.our{
+  display: flex; 
+  justify-content: center; 
+  font-size: 50px;
+}
+.study{
+    display: flex;
+    height: 200px;
+    gap: 150px;
+    font-size: 20px;
+    background-color: rgb(75, 159, 238);
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.partion{
+    height: 200px;
+    display: flex;
+    gap: 150px;
+    font-size: 20px;
+    background-color: rgb(68, 231, 190);
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.pacel{
+    padding-left: 55px
+}
+.car-hire{
+    padding-left: 100px;
+}
